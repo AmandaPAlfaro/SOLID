@@ -1,0 +1,8 @@
+E:\C# trabajos\SResponsibilityPrincipleExplained\SOLID\OpenClosePrinciples\OpenClosePrinciples\OpenClosePrinciples\bin\Debug\OpenClosePrinciples.exe.config
+E:\C# trabajos\SResponsibilityPrincipleExplained\SOLID\OpenClosePrinciples\OpenClosePrinciples\OpenClosePrinciples\bin\Debug\OpenClosePrinciples.exe
+E:\C# trabajos\SResponsibilityPrincipleExplained\SOLID\OpenClosePrinciples\OpenClosePrinciples\OpenClosePrinciples\bin\Debug\OpenClosePrinciples.pdb
+E:\C# trabajos\SResponsibilityPrincipleExplained\SOLID\OpenClosePrinciples\OpenClosePrinciples\OpenClosePrinciples\obj\Debug\OpenClosePrinciples.csproj.AssemblyReference.cache
+E:\C# trabajos\SResponsibilityPrincipleExplained\SOLID\OpenClosePrinciples\OpenClosePrinciples\OpenClosePrinciples\obj\Debug\OpenClosePrinciples.csproj.SuggestedBindingRedirects.cache
+E:\C# trabajos\SResponsibilityPrincipleExplained\SOLID\OpenClosePrinciples\OpenClosePrinciples\OpenClosePrinciples\obj\Debug\OpenClosePrinciples.csproj.CoreCompileInputs.cache
+E:\C# trabajos\SResponsibilityPrincipleExplained\SOLID\OpenClosePrinciples\OpenClosePrinciples\OpenClosePrinciples\obj\Debug\OpenClosePrinciples.exe
+E:\C# trabajos\SResponsibilityPrincipleExplained\SOLID\OpenClosePrinciples\OpenClosePrinciples\OpenClosePrinciples\obj\Debug\OpenClosePrinciples.pdb
