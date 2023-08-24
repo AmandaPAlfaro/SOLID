@@ -1,8 +1,8 @@
 ﻿namespace OpenClosePrinciples
 {
-    public class Accounts
+    public class Accounts : IAccounts
     {
-        public EmployeeModel Create(PersonModel person) 
+        public EmployeeModel Create(PersonModel person)
         {
             EmployeeModel output = new EmployeeModel();
 
@@ -14,20 +14,20 @@
             //{
             //    output.IsManager = true;
             //}
-            switch (person.TypeOfEmployee) 
-            {
-                case EmployeeType.Staff:
-                    break;
-                case EmployeeType.Manager:
-                    output.IsManager = true;
-                    break;
-                case EmployeeType.Executive:
-                    output.IsManager = true;
-                    output.IsExecutive = true;
-                    break;
-                default:
-                    break;
-            }
+            //switch (person.TypeOfEmployee) 
+            //{
+            //    case EmployeeType.Staff:
+            //        break;
+            //    case EmployeeType.Manager:
+            //        output.IsManager = true;
+            //        break;
+            //    case EmployeeType.Executive:
+            //        output.IsManager = true;
+            //        output.IsExecutive = true;
+            //        break;
+            //    default:
+            //        break;
+            //}
 
             return output;
         }

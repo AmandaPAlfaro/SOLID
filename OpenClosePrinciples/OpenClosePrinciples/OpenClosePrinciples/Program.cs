@@ -9,16 +9,16 @@ namespace OpenClosePrinciples
         {
             List<PersonModel> applicants = new List<PersonModel> {
                 new PersonModel { FirstName = "Tim", LastName = "Corey" },
-                new PersonModel { FirstName = "Sue", LastName = "Storm", TypeOfEmployee = EmployeeType.Manager },
+                new ManagerModel { FirstName = "Sue", LastName = "Storm" },
                 new PersonModel { FirstName = "Nancy", LastName = "Roman" }
             };
 
             List<EmployeeModel> employees = new List<EmployeeModel>();
-            Accounts accountsProcesson = new Accounts();
+ 
 
             foreach (var person in applicants) 
             {
-                employees.Add(accountsProcesson.Create(person));
+                employees.Add(person.AccountProcessor.Create(person));
             }
 
             foreach (var emp in employees)

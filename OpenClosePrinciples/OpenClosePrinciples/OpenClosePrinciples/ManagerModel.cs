@@ -1,10 +1,10 @@
 ﻿namespace OpenClosePrinciples
 {
-    public class PersonModel : IApplicantModel
+    public class ManagerModel : IApplicantModel
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public IAccounts AccountProcessor { get; set; } = new Accounts();
+        public IAccounts AccountProcessor { get; set; } = new ManagerAccounts();
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4EDC1527-EEB2-4B78-8E45-6997245142D6}</ProjectGuid>
+    <ProjectGuid>{BBF6991F-45E6-4AE1-9843-864D50CB8006}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OpenClosePrinciples</RootNamespace>
-    <AssemblyName>OpenClosePrinciples</AssemblyName>
+    <RootNamespace>SPRP__CSharp</RootNamespace>
+    <AssemblyName>SPRP- CSharp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Accounts.cs" />
-    <Compile Include="EmployeeModel.cs" />
-    <Compile Include="Enums.cs" />
-    <Compile Include="IAccounts.cs" />
-    <Compile Include="IApplicantModel.cs" />
-    <Compile Include="ManagerAccounts.cs" />
-    <Compile Include="ManagerModel.cs" />
-    <Compile Include="PersonModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
