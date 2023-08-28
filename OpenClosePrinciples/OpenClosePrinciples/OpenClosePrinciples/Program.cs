@@ -7,14 +7,14 @@ namespace OpenClosePrinciples
     {
         static void Main(string[] args)
         {
-            List<PersonModel> applicants = new List<PersonModel> {
+            List<IApplicantModel> applicants = new List<IApplicantModel> 
+            {
                 new PersonModel { FirstName = "Tim", LastName = "Corey" },
                 new ManagerModel { FirstName = "Sue", LastName = "Storm" },
-                new PersonModel { FirstName = "Nancy", LastName = "Roman" }
+                new ExecutiveModel { FirstName = "Nancy", LastName = "Roman" }
             };
 
             List<EmployeeModel> employees = new List<EmployeeModel>();
- 
 
             foreach (var person in applicants) 
             {

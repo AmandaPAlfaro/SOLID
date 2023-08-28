@@ -1,6 +1,6 @@
 ﻿namespace OpenClosePrinciples
 {
-    public class Accounts : IAccounts
+    public class ExecutiveAccounts : IAccounts
     {
         public EmployeeModel Create(IApplicantModel person)
         {
@@ -8,7 +8,10 @@
 
             output.FirstName = person.FirstName;
             output.LastName = person.LastName;
-            output.EmailAdress = $"{person.FirstName.Substring(0, 1)}{person.LastName}@acme.com";
+            output.EmailAdress = $"{person.FirstName}.{person.LastName}@acme.com";
+
+            output.IsManager = true;
+            output.IsExecutive= true;
 
             return output;
         }

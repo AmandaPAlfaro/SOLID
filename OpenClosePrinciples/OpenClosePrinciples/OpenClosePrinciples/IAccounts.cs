@@ -2,6 +2,6 @@
 {
     public interface IAccounts
     {
-        EmployeeModel Create(PersonModel person);
+        EmployeeModel Create(IApplicantModel person);
     }
 }
