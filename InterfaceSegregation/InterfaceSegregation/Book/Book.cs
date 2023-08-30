@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace InterfaceSegregation
 {
-    public class AudioBook
+    public class Book : IBorrowableBook
     {
         public string LibraryId { get; set; }
         public string Title { get; set; }
@@ -16,18 +12,18 @@ namespace InterfaceSegregation
         public string Borrower { get; set; }
         public DateTime BorrowDate { get; set; }
 
-        public void checkout(string borrower)
+        public void CheckOut(string borrower)
         {
             Borrower = borrower;
-            BorrowDate = DateTime.Now;  
+            BorrowDate = DateTime.Now;
         }
 
-        public void CheckIN()
+        public void CheckIn()
         {
-            Borrower= "";
+            Borrower = "";
         }
 
-        public DateTime GetDueDate() 
+        public DateTime GetDueDate()
         {
             return BorrowDate.AddDays(CheckoutDurationInDays);
         }
