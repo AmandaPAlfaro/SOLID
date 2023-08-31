@@ -6,9 +6,6 @@ namespace InterfaceSegregation
     {
         static void Main(string[] args)
         {
-            IBorrowableDVD dvd = new DVD();
-
-            dvd.
 
             Console.WriteLine();
         }

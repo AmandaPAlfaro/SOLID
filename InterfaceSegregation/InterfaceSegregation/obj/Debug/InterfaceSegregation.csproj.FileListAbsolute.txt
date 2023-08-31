@@ -1,0 +1,8 @@
+E:\C# trabajos\SResponsibilityPrincipleExplained\SOLID\InterfaceSegregation\InterfaceSegregation\obj\Debug\InterfaceSegregation.csproj.AssemblyReference.cache
+E:\C# trabajos\SResponsibilityPrincipleExplained\SOLID\InterfaceSegregation\InterfaceSegregation\obj\Debug\InterfaceSegregation.csproj.SuggestedBindingRedirects.cache
+E:\C# trabajos\SResponsibilityPrincipleExplained\SOLID\InterfaceSegregation\InterfaceSegregation\obj\Debug\InterfaceSegregation.csproj.CoreCompileInputs.cache
+E:\C# trabajos\SResponsibilityPrincipleExplained\SOLID\InterfaceSegregation\InterfaceSegregation\bin\Debug\InterfaceSegregation.exe.config
+E:\C# trabajos\SResponsibilityPrincipleExplained\SOLID\InterfaceSegregation\InterfaceSegregation\bin\Debug\InterfaceSegregation.exe
+E:\C# trabajos\SResponsibilityPrincipleExplained\SOLID\InterfaceSegregation\InterfaceSegregation\bin\Debug\InterfaceSegregation.pdb
+E:\C# trabajos\SResponsibilityPrincipleExplained\SOLID\InterfaceSegregation\InterfaceSegregation\obj\Debug\InterfaceSegregation.exe
+E:\C# trabajos\SResponsibilityPrincipleExplained\SOLID\InterfaceSegregation\InterfaceSegregation\obj\Debug\InterfaceSegregation.pdb
